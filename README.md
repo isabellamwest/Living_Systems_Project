@@ -26,7 +26,6 @@ one intervention across all three mechanisms.
 | `waterborne/` | environmental reservoir | Cholera, Peru 1991 (PAHO data) | SIR, SIRB | sanitation / water treatment |
 | `airborne/` | respiratory | COVID-19 first wave, UK 2020 (OWID data) | SIRD, SIRDV, SEAIQR | vaccination, lockdown, quarantine |
 | `direct_contact/` | close contact | Ebola, West Africa 2014–16 (WHO data) | SIRD, SEAIQR | case isolation |
-| `conclusion/` | — | cross-cutting synthesis | all of the above | — |
 
 ## Repository structure
 
