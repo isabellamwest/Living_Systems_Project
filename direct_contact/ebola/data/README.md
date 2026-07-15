@@ -27,14 +27,14 @@ Columns: `date, cumulative_cases, cumulative_deaths, source`.
 - ECDC updates: https://www.ecdc.europa.eu/en/news-events (epidemiological update: outbreak of Ebola virus disease in West Africa, by date)
 - WHO Ebola outbreak 2014–2016 overview: https://www.who.int/emergencies/situations/ebola-outbreak-2014-2016-West-Africa
 
-## How it is used, and the caveats
+## Notes
 
 The notebook runs the SEAIQR and SIRD simulations with literature rates and
-compares the simulated **cumulative cases at each report date** to these figures.
+compares the simulated cumulative cases at each report date to these figures.
 
-- The data is cumulative WHO surveillance; a single well-mixed model captures
-  the explosive 2014 growth but under-predicts the long 2015 tail (persistent
-  low-level transmission and flare-ups across a metapopulation).
-- The reported case fatality ratio falls from ~0.56 to ~0.40 across the
+- The data is cumulative WHO surveillance. A single well-mixed model captures the
+  explosive 2014 growth but under-predicts the long 2015 tail of persistent
+  low-level transmission and flare-ups across a metapopulation.
+- The reported case fatality ratio falls from about 0.56 to 0.40 across the
   milestones as case outcomes are recorded, so a single constant CFR is only an
   approximation.
