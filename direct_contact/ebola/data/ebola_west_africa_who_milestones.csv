@@ -1,0 +1,13 @@
+# Ebola virus disease, West Africa 2014-2016 -- cumulative WHO-reported milestones.
+# REAL data: each row taken from a primary WHO Disease Outbreak News / ECDC
+# epidemiological update (totals are WHO's West Africa cumulative figures, i.e.
+# Guinea+Liberia+Sierra Leone plus the small numbers in other affected countries).
+# See README for the exact source URL of each row. [7]
+date,cumulative_cases,cumulative_deaths,source
+2014-07-23,1201,672,WHO DON 27 Jul 2014
+2014-08-26,3069,1552,WHO DON / ECDC 28 Aug 2014
+2014-10-05,8032,3865,ECDC 9 Oct 2014
+2014-10-19,9936,4877,ECDC 23 Oct 2014
+2014-12-17,18603,6915,ECDC 18 Dec 2014
+2015-01-29,22136,8833,ECDC 29 Jan 2015
+2015-11-18,28598,11299,ECDC 23 Nov 2015

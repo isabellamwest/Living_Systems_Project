@@ -1,0 +1,11 @@
+# Cholera epidemic, Peru (national), 1991 -- cumulative surveillance milestones.
+# REAL data: PAHO/WHO situation reports, 1991 (cumulative suspected cases,
+# hospitalisations and deaths at successive report dates). day_of_year has
+# Jan 1 = 1. See README for provenance and the metapopulation caveat. [3][4]
+date,day_of_year,cumulative_cases,hospitalisations,cumulative_deaths
+1991-02-14,45,11085,2450,77
+1991-02-28,59,44834,14357,194
+1991-03-31,90,118574,42122,812
+1991-06-30,181,224248,83521,2143
+1991-08-15,227,246246,91424,2416
+1991-12-31,365,322568,119063,2906
